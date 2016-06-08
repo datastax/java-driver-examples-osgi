@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Description: An example application using the DataStax Java Drive
+ r and built with Tycho and Eclipse RCP.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: DataStax Java Driver for Apache Cassandra Examples - Tycho 
+ - Parent
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: com.datastax.driver.examples.rcp.parent;singleton:=
+ true
+Bundle-Version: 1.0.0.qualifier
+Private-Package: !*

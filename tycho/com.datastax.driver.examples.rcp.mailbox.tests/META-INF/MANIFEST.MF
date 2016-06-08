@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ActivationPolicy: lazy
+Bundle-Description: An example application using the DataStax Java Drive
+ r and built with Tycho and Eclipse RCP.
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: DataStax Java Driver for Apache Cassandra Examples - Tycho 
+ - Tests
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-SymbolicName: com.datastax.driver.examples.rcp.mailbox.tests;sing
+ leton:=true
+Bundle-Version: 1.0.0.qualifier
+Fragment-Host: com.datastax.driver.examples.rcp.mailbox
+Import-Package: 
+ com.datastax.driver.core;version="[3.0,4)",
+ com.datastax.driver.core.querybuilder;version="[3.0,4)",
+ com.datastax.driver.examples.rcp.mailbox,
+ com.datastax.driver.mapping;version="[3.0,4)",
+ com.google.common.collect;version="[19.0,20)",
+ com.google.common.util.concurrent;version="[19.0,20)",
+ org.assertj.core.api;version="[3.4,4)",
+ org.junit,
+ org.junit.runner,
+ org.mockito;version="[1.10,2)",
+ org.mockito.invocation;version="[1.10,2)",
+ org.mockito.runners;version="[1.10,2)",
+ org.mockito.stubbing;version="[1.10,2)",
+ org.osgi.framework;version="[1.8,2)",
+ org.slf4j.impl;version="[1.7,2)"
+Private-Package: com.datastax.driver.examples.rcp.mailbox.tests
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
