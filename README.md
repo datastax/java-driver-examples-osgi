@@ -1,7 +1,7 @@
 # DataStax Java Driver OSGi Examples
 
 This git repository hosts examples showing the usage of the 
-DataStax Java driver in OSGi applications.
+[DataStax Java driver](https://github.com/datastax/java-driver) in OSGi applications.
 
 Choose whichever project best fits your build and test
 environments:
